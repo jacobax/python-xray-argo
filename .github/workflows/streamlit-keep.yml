@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   repository_dispatch:
     types: [service-down-alert]
-  schedule:
-    - cron: '12 1,13 * * *'
+#  schedule:
+#    - cron: '12 1,13 * * *'
 
 jobs:
   wakeup:
